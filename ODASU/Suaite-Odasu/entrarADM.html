@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador</title>
+    <link rel="stylesheet" href="css/stEntrarADM.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap">
+
+</head>
+<body>
+    <div class="login-container">
+        <h2>Entre</h2>
+        <form action="../bd/envio.php" method="post" autocomplete="off">
+            <input type="email" placeholder="E-mail" id="txtLoginEmailAdmin"  name="txtLoginEmailAdmin" required>
+            <input type="password" placeholder="Senha"  id="txtLoginSenhaAdmin" name="txtLoginSenhaAdmin" required>
+            <div class="options">
+                <label>
+                    <input type="checkbox"> Lembrar
+                </label>
+                <a href="senhaEsquecida.html">Esqueci minha senha</a>
+            </div>
+            <button type="submit" class="login-button" id="btnEnviarFormAdmin" name="btnEnviarFormAdmin">Entrar</button>
+        </form>
+    </div>
+</body>
+</html>

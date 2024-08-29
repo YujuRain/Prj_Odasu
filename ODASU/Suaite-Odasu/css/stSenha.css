@@ -1,0 +1,82 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'ABeeZee', Arial, sans-serif;
+}
+
+/* Container de recuperação de senha */
+.reset-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Estilo do título */
+.reset-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #15592b;
+}
+
+/* Estilo do parágrafo */
+.reset-container p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #000000;
+}
+
+/* Estilo dos inputs */
+.reset-container input[type="email"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+
+.center { padding-top: 15px;
+}
+
+/* Estilo dos botões */
+.reset-container button {
+    width: 70%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3D5B3D;
+    transition: background-color 0.3s ease;
+}
+
+.reset-container button:hover {
+    background-color: #628462;
+}
+
+/* Estilo dos labels */
+.reset-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}

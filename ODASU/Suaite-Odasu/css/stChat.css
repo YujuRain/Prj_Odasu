@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3c574b;
+    padding: 10px 20px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    font-size: 24px;
+    flex: 1;
+    text-align: left;
+}
+
+header .search-bar {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+header .search-bar input {
+    padding: 5px;
+    flex: 1;
+    max-width: 300px;
+}
+
+header .search-bar button {
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+header .account {
+    flex: 1;
+    text-align: right;
+}
+
+header .account button {
+    margin-left: 10px;
+    padding: 5px 10px;
+}
+
+nav {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 140px); /* Altura da janela menos a altura do header e nav */
+    background-color: #fff;
+    color: #3c574b;
+    text-align: center;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.chat-text h2 {
+    margin: 0;
+}
+
+.chat-text p {
+    margin-top: 5px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header .search-bar {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    header .search-bar input {
+        width: 100%;
+    }
+
+    header .account {
+        text-align: left;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

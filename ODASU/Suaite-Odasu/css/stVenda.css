@@ -1,0 +1,176 @@
+.divProduto {
+    display: flex;
+    /* margin-bottom: 300px; */
+    margin-top: 100px;
+    margin-bottom: 200px;
+
+}
+
+
+.divFoto {
+    width: 50%;
+    margin-top: 30px;
+}
+
+.produto {
+    background-color: #AFAFAF;
+    width: 400px;
+    height: 400px;
+    border: solid #D9D9D9 10px;
+    border-radius: 5px;
+    margin: auto;
+}
+.lavatorio {
+    width: 100%;
+}
+.divDesc {
+    width: 50%;
+    padding-top: 35px;
+}
+
+.descProduto {
+    margin: auto;
+}
+
+
+.h1Produto {
+    color: #3D5B3D;
+    width: 80%;
+}
+
+.pEstado {
+    font-weight: bold;
+}
+
+.divComprarFavoritar {
+    background-color: #3D5B3D;
+    width: 460px;
+    height: 160px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-top: 7px;
+}
+
+.divPreco {
+    background-color: #628462;
+    margin: 20px auto 0px auto;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.precoh2 {
+    color: #e0e0e0;
+    padding-top: 5px;
+}
+
+.divBtnCompFav {
+    display: flex;
+    margin-top: 20px;
+}
+
+.btnComprar {
+    background-color: #D8B32D;
+    margin: 0px auto 0px auto;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+}
+
+.btnFavoritar {
+    background-color: #D8B32D;
+    margin: 0px auto 0px auto;
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+}
+
+.h2Comprar {
+    color: #e0e0e0;
+    margin: auto auto auto 0px;
+    padding: 0px;
+    font-size: 25px;
+}
+
+.iconbtnProd {
+    width: auto;
+    height: 25px;
+    margin: auto;
+}
+
+
+@media (max-width: 1011px) {
+    .divProduto {
+
+        display: block;
+        flex-direction: column;
+    }
+
+    .divFoto {
+
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .divDesc {
+        padding: 0px;
+        margin: 0px;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+}
+
+@media (max-width: 1145px) {
+    .divComprarFavoritar {
+        width: 95%;
+
+    }
+
+}
+
+@media (max-width: 817px) {
+    .divComprarFavoritar {
+        width: 300px;
+        height: 150px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .h1Produto {
+        font-size: 18px;
+
+    }
+
+    .produto {
+        width: 300px;
+        height: 300px;
+    }
+
+    .descProduto {
+        width: 300px;
+    }
+
+    .divFoto {
+        margin: 0px;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .divDesc {
+        margin: 0px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}

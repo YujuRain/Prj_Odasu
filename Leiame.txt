@@ -1,0 +1,15 @@
+Para usar o projeto é necessario:
+
+XAMPP
+NodeJS
+VisualStudio Code
+
+
+1 - Arraste a pasta Odasu para xampp/htdocs
+
+2 - Importe o banco dados "odasu" no xampp
+
+3 - Use o VisualStudioCode localize a pasta ODASU dentro de "xampp/htdocs/ODASU".
+Crie um novo terminal e execute o comando. cd ./chat/backend (e pressione enter para que navegue atraves do terminal até este diretório)
+Depois digite o comando npm start (para que inicie o serviço NodeJS).
+Dessa forma o chat começa a funcionar.

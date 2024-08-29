@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap">
+    <link rel="icon" href="./favicon.png" type="image/png">
+    <script src="https://kit.fontawesome.com/416980903f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <form action="../bd/envio.php" method="post" autocomplete="off">
+            <div class="header">
+                <div> <i class="fa-solid fa-user" style="color: #3D5B3D;"></i></div>
+                <h2>CADASTRO</h2>
+            </div>
+            
+            <hr>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="txtNomeUsuario">Nome</label>
+                    <input type="text" id="txtNomeUsuario" name="txtNomeUsuario" required>
+                </div>
+                <div class="form-group">
+                    <label for="txtSobrenomeUsuario">Sobrenome</label>
+                    <input type="text" id="txtSobrenomeUsuario" name="txtSobrenomeUsuario" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="txtCelUsuario">Celular</label>
+                    <input type="tel" id="txtCelUsuario" name="txtCelUsuario" required>
+                </div>
+                <div class="form-group">
+                    <label for="txtNascUsuario">Data de nascimento</label>
+                    <input type="date" id="txtNascUsuario" name="txtNascUsuario" required>
+                </div>
+            </div>
+            <hr>
+            <h3>Dados de Login</h3>
+            <div class="form-group">
+                <label for="txtEmailUsuario">E-mail</label>
+                <input type="email" id="txtEmailUsuario" name="txtEmailUsuario" required>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="txtSenhaUsuario">Senha</label>
+                    <input type="password" id="txtSenhaUsuario" name="txtSenhaUsuario" required>
+                </div>
+                <div class="form-group">
+                    <label for="txtSenhaUsuarioConf">Confirmar Senha</label>
+                    <input type="password" id="txtSenhaUsuarioConf" name="txtSenhaUsuarioConf">
+                </div>
+            </div>
+            <div class="center">
+            <button type="submit" id="btnCadastrarUsuario" name="btnCadastrarUsuario">Cadastre-se</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
